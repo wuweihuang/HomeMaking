@@ -248,6 +248,14 @@
           <artifactId>servlet-api</artifactId>
           <version>2.3</version>
       </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok  插件-->
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.8</version>
+          <scope>provided</scope>
+      </dependency>
   </dependencies>
 
   <build>
